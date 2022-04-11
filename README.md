@@ -11,6 +11,7 @@ int		ft_printf(const char *str, ...);
 - cspxXdiu%
 
 ## How to use
+![Compile with macos](https://badgen.net/badge/build/macOS/grey?icon=apple)
 
 Clone the project
 ```bash
