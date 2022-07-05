@@ -1,13 +1,14 @@
+
 # ft_printf
 The goal is to recode the printf function.
 
-## The function
+## The function prototype
 
-```bash
-int		ft_printf(const char *str, ...);
+```c
+int ft_printf(const char *str, ...);
 ```
 
-/!\ The function only handles the following flags:
+The function only handles the following flags:
 - cspxXdiu%
 
 ## How to use
@@ -29,6 +30,9 @@ make
 ```
 
 Then compile your project with 'libftprintf.a'.
+
+## The Norm
+This project was realized following [the standard 42](https://raw.githubusercontent.com/42Paris/norminette-v3/master/pdf/en.norm.pdf). 
 
 
 ## Authors
